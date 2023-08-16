@@ -2,16 +2,16 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * @n: the int to check
+ * @c: the int to check
  * Return: the absolute value of number or zero
  */
 int _abs(int c)
 {
 	if (c<0)
 	{
-	int abs_val;
-	abs_val = c* -1;
-	return (abs_val);
+	int abs;
+	abs = c* -1;
+	return (abs);
 	}
 	return(c);
 }
