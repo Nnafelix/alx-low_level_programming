@@ -1,12 +1,14 @@
-#include <stdio.h>
-
+#include "main.h"
+#include <unistd.h>
 /**
- * main - fibonacci <3
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Purpose - no hardcode
- *
- * Return:  (Success)
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-int main(void)
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 
