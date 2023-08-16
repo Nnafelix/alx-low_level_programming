@@ -1,12 +1,11 @@
 #include "main.h"
-
 /**
- * main - Entry point of code.
- * by Nnafelix
- * Return: Always 0
+ * main - print _putchar
+ * is wriiten by Nnafelix
+ * Return: 0
  */
- 
- int main(void)
+
+int main(void)
 {
 _putchar('_');
 _putchar('p');
