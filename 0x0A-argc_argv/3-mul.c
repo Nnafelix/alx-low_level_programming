@@ -38,7 +38,6 @@ int_atoi(char *s)
 		return (0);
 	return (n);
 }
-
 /**
  * main - multiplies two numbers
  * @argc: number of argument
@@ -52,9 +51,8 @@ int main(int argc, char *argv[])
 	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
-		return (1)
+		return (1);
 	}
-
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
 	result = num1 * num2;
