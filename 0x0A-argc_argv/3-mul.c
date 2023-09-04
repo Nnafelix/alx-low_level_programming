@@ -5,7 +5,7 @@
  * @s;string to be converted
  * Return; the int converted from  string
  */
-int_atoi(char *s)
+int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 
